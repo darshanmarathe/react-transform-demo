@@ -1,0 +1,21 @@
+# ASP.NET Core generated output
+bin/
+obj/
+publish/
+
+# Local runtime data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# User-specific IDE state
+*.user
+*.suo
+.vs/
+.vscode/
+
+# Logs
+*.log
+logs/

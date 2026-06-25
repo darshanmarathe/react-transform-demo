@@ -1,0 +1,19 @@
+# WPF build outputs
+bin/
+obj/
+publish/
+
+# IDE and user files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Local data and logs
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.log
+logs/

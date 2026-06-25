@@ -1,0 +1,21 @@
+# WinForms build outputs
+bin/
+obj/
+publish/
+
+# Local client data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# IDE and user files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Logs
+*.log
+logs/
