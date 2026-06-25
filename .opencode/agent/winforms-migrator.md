@@ -38,11 +38,12 @@ Ask these questions when not already answered:
 1. Should the target be a React web app, an Electron desktop app, or both?
 2. Should it reuse the existing ASP.NET Core API at `server/VibeTasks.Api`?
 3. Should the UI match WinForms closely, or should it be redesigned for a modern web/desktop UX?
-4. Which styling system should be used: plain CSS, Tailwind, MUI, Ant Design, shadcn/ui, or another choice?
-5. Which data-fetching approach should be used: simple `fetch`, Axios, TanStack Query, Redux Toolkit Query, or another choice?
-6. For import/export, should files be handled by the browser download/upload flow, by the server, or by Electron filesystem APIs?
-7. Which package manager should be used: npm, pnpm, yarn, or bun?
-8. Should authentication or multi-user permissions be added, or should the existing user assignment model remain simple?
+4. Which design system / UI component library should be used: plain CSS/Tailwind, MUI, Ant Design, shadcn/ui, Chakra, Radix, PrimeReact, or another choice?
+5. Which third-party tools should be used for common screen patterns (e.g., data grids/tables like TanStack Table or AG Grid, date pickers, rich text editors, form libraries like React Hook Form or Formik)?
+6. Which data-fetching approach should be used: simple `fetch`, Axios, TanStack Query, Redux Toolkit Query, or another choice?
+7. For import/export, should files be handled by the browser download/upload flow, by the server, or by Electron filesystem APIs?
+8. Which package manager should be used: npm, pnpm, yarn, or bun?
+9. Should authentication or multi-user permissions be added, or should the existing user assignment model remain simple?
 
 If the user asks for a quick default, recommend:
 

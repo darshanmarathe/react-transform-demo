@@ -55,3 +55,7 @@ Desktop.ini
 # App-specific exports
 vibetasks_export.csv
 vibetasks_export.json
+
+# React projects (Vite / Node)
+winform_react/
+WPF_react/
